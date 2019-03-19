@@ -31,7 +31,7 @@ int main(int argc, char* argv[])
 	
 	array_C = (float*)malloc(N*N*sizeof(float));
 	if(array_C == NULL)
-  {
+	{
 		free(array_A);
 		free(array_B);
 		exit(1);
@@ -53,8 +53,8 @@ int main(int argc, char* argv[])
 	}    	
 
 	pa = array_A;
-  pb = array_B;
-  pc = array_C;
+        pb = array_B;
+        pc = array_C;
 
 	get_walltime(&ts);		
 	
