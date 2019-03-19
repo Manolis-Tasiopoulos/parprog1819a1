@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/time.h>
-
 #include <pmmintrin.h>
 
 void get_walltime(double *wct);
